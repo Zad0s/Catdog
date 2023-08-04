@@ -1,0 +1,265 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1em;
+    background-color: rgb(251, 187, 27);
+    font-family: 'Manrope', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.catdog {
+    width: 300px;
+}
+
+.catdog-intro {
+    width: 300px;
+    position: absolute;
+    top: 300px;
+    right: 200px;
+}
+
+.catdog-header {
+    width: 100px;
+    margin-left: 50px;
+}
+
+header {
+    border-bottom: solid black 0.2em;
+    padding-bottom: 20px;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    font-size: 0.8em;
+    margin-right: 40px;
+    background-color: #222222;
+    border: 0.2em white solid;
+    border-radius: 20px;
+    padding: 12px 30px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: background-color 0.5s; 
+}
+
+nav a:hover {
+    color: #222222;
+    font-size: 0.8em;
+    margin-right: 40px;
+    background-color: white;
+    border: white solid ;
+    padding: 12px 30px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.intro {
+    border-bottom: solid 0.2em #222222;
+    border-right: solid 0.2em #222222;
+    margin-right: 50px;
+    margin-bottom: 200px;
+}
+
+.intro p {
+    font-size: 1.5em;
+    width: 30%;
+    margin-left: 280px;
+}
+
+.intro h1 {
+    font-family: 'CARTOON FREE', sans-serif;
+    font-size: 3em;
+    margin-left: 280px;
+    margin-top: 150px;
+}
+
+.intro-link  {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin-left: 270px;
+    margin-bottom: 50px;
+}
+
+.intro a:hover,
+.footer-info a:hover {
+    opacity: 70%;
+}
+
+
+.about {
+    border-bottom: solid 0.2em #222222;
+    border-left: solid 0.2em #222222;
+    margin-left: 50px;
+    margin-bottom: 200px;
+}
+
+
+.about h2 {
+    font-size: 3em;
+    font-family: 'CARTOON FREE', sans-serif;
+}
+
+.about p {
+    font-size: 1.5em;
+    width: 70%;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 200px;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.how_to_buy{
+    margin-bottom: 150px;
+    padding: 50px;
+    border-bottom: solid 0.2em #222222;
+    border-top: solid 0.2em #222222;
+}
+
+.how_to_buy h2 {
+    font-family: 'CARTOON FREE', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.how_to_buy-info {
+    font-size: 1.5em;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.block {
+    text-align: center;
+    background-color: #222222;
+    padding: 20px;
+    color: white;
+    border-radius: 40px;
+    text-transform: lowercase;
+}
+
+.tokenomics {
+    border-bottom: solid 0.2em #222222;
+    border-right: solid 0.2em #222222;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+.tokenomics h2 {
+    font-family: 'CARTOON FREE', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 100px;    
+}
+
+.tokenomics h3 {
+    font-size: 2em;
+    font-family: 'CARTOON FREE', sans-serif;
+    position: absolute;
+    top: 3270px;
+    left: 450px;
+}
+
+.tokenomics-info {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 50px;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer h2 {
+    font-size: 5em;
+    text-align: center;
+    font-family: 'CARTOON FREE', sans-serif;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, 
+                rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+footer h3 {
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.roadmap h2 {
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'CARTOON FREE', sans-serif;
+    font-size: 3em;
+}
+
+.roadmap-box div{
+    border: solid 3px black;
+    background-color: rgb(196, 22, 22);
+    border-radius: 50px;
+    text-align: center;
+    width: 20%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.roadmap-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 200px;
+}
+
+.roadmap-box h3 {
+    margin-bottom: 50px;
+    color: white;
+    font-family: 'CARTOON FREE', sans-serif;
+    font-size: 2.5em;
+}
+
+.roadmap-box p {
+    font-size: 1.5em;
+}
+
